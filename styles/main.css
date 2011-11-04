@@ -1,0 +1,67 @@
+@import url(reset.css);
+
+/*
+Pallette from ColourLovers
+http://www.colourlovers.com/palette/1838334/Russian_Ice
+
+grey - BFCFDE
+white - FFFDF2
+cream - FFF4C4
+tan - FAE89B
+khaki - CCB962
+*/
+
+html, body {
+	background-color:#BFCFDE;
+	height:100%;
+	width:100%;
+	min-width:320px;
+}
+
+.main {
+	margin:auto;
+	margin-top:2%;
+	background-color:#CCB962;
+	height: 80%;
+	width:85%;
+	padding:2%;
+	box-shadow:5px 5px rgba(0,0,0,.4);
+	border-radius:15px;
+}
+
+section {
+	padding:0.75%;
+	background-color:#FFF4C4;
+}
+
+.navigation, .maincontent {
+	height:96%;
+	width:46%;
+	float:left;
+	box-shadow:5px 5px rgba(0,0,0,0.4);
+	border-radius:15px
+}
+
+.maincontent {
+	float:right;
+}
+
+.inlet {
+	background-color:#CCB962;
+	height:46%;
+	width:45%;
+	display:inline-block;
+	margin:2%;
+	border-radius:15px;
+	box-shadow: inset 5px 5px rgba(0,0,0,0.4);
+}
+
+.circle {
+	margin:auto;
+	margin-top:26%;
+	padding:30%;
+	width:1%;
+	background-color: #FFF4C4;
+	border-radius:70px;
+	box-shadow:5px 5px rgba(0,0,0,0.4);
+}
